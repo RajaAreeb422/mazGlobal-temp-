@@ -1,0 +1,164 @@
+.minus_btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 12px 0px 0px 12px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #d7dbdb;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.add_btn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #d7dbdb;
+    border-radius: 0px 12px 12px 0px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.counter{
+    /* display: inline; */
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.productShow{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 55px;
+ 
+}
+
+.mainDiv{
+    border: 0.095rem ridge lightgrey;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.imgDescp{
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  border: 1px solid whitesmoke;
+  margin-bottom: 40px;
+
+ 
+}
+.desc{
+    padding: 18px;
+}
+
+.amountContainer{
+    display: flex;
+    font-weight: 700;
+}
+
+.btn2{
+    width: 90%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+  
+    background-image: linear-gradient(to right, red,rgba(67, 143, 173, 0.933));
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.imgg{
+    width:500px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Input{
+    height: 50px;
+    border: 0.02rem solid lightgrey;
+    padding: 6px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: whitesmoke;
+}
+
+@media screen and (max-width: 700px) {
+      
+    .container{
+      display: flex;
+      flex-direction:column;
+      width: 80%;
+    }
+
+    .productShow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainDiv{
+        width: 80%;
+    }
+
+    .imgDescp{
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .imgg{
+        width:100% !important;
+        height:40%;
+    }
+}
+
+@media (min-width:900px) and (max-width:1400px) {
+      
+    .container{
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      flex-wrap: nowrap !important;
+    }
+    
+    .productShow{
+        width: 80%;
+    }
+    
+    .mainDiv{
+   
+        width: 80%;
+     
+    }
+   .imgDescp{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .btn2{
+    width: 30%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rupeeAndqty{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+}

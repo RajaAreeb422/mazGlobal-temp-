@@ -1,0 +1,15 @@
+.contmiss{
+    background-color: #F5F5F5;
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+}
+.setico{
+    position: relative;
+    margin-left: -20px;
+    margin-top: 50px;
+    background: red;
+}
+.head3{
+    text-align: center!important;
+    padding: 0 20px 0 20px;
+}

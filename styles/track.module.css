@@ -1,0 +1,110 @@
+.container{
+    padding:20px;
+     display:flex;
+     flex-direction: row;
+     
+}
+
+.text{
+    padding: 30px;
+    width:60%;
+    margin: 20px;
+    text-align: center;
+    
+    border: 1px solid lightgrey;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.input{
+    padding:4px;
+    border-radius:4px;
+    border-style:groove;
+    height:40px;
+    margin:5px ;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+.para{
+    width:30%;
+    text-align:justify;
+    padding:10px;
+    margin-left:9%;
+    margin-top:1%;
+}
+
+.striveBlock{
+    display:flex;
+    flex-direction:row;
+    margin-left:10%;
+      margin-right:20%;
+      padding:20px;
+      width:90%;
+}
+.team{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.largeView{
+    margin-top:-2%;
+    margin-right:-3%;
+}
+.imgView{
+    width:57%;
+    height:30%;
+}
+
+.btn{
+    width: 20%;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color:rgba(16, 103, 138, 0.933);
+  /* background-image: linear-gradient(to right, red,rgba(67, 143, 173, 0.933)); */
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right:0;
+        width:auto;
+    }  
+    .largeView{
+        display:none;
+        margin-right: 0;
+    }
+    .text{
+        margin:20px;
+        width:90%;
+        
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .striveBlock{
+        display:flex;
+        flex-direction:column;
+        
+    
+          
+    }
+    .para{
+        width:80%;
+        text-align:justify;
+        padding-top:10px;
+        
+        margin-top:1%;
+    }
+    .imgView{
+        width:90%;
+        height:30%;
+    }
+}

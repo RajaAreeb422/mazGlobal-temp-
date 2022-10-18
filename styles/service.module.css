@@ -1,0 +1,99 @@
+.container{
+    display:flex;
+    flex-direction:row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productshow{
+    padding: 20px;
+    width:auto;
+    margin-top:0px;
+    
+      border:0.095rem solid lightgrey;
+      
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.spacing{
+   
+  
+     
+}
+.hdng{
+    font-weight:400;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+}
+.paara{
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
+.box{
+    display: flex;
+    padding: 20px;
+    width:auto;
+    margin-top:0px;
+    
+    border:0.095rem solid lightgrey;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    background-color: whitesmoke;
+    color:rgba(67, 143, 173, 0.933);
+    width:46%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    
+    text-align: center;
+}
+@media screen and (max-width: 700px) {
+      
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        width: 90%;
+        
+    }
+    .productshow{
+        width: auto;
+        margin-bottom: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .spacing{
+         margin-left:auto;
+        margin-right:auto;
+    }
+    .box{
+        
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo{
+        background-color: whitesmoke;
+        color:rgba(67, 143, 173, 0.933);
+        width:90%;
+       
+        padding: 10px;
+        margin: 10px;
+        
+        text-align: center;
+    }
+}

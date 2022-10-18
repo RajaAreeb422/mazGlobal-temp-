@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.productshow{
+padding: 20px;
+padding-top: 0px;
+width: auto;
+margin-top: 0px;
+display: flex;
+
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .productshow{
+        width:90%;
+    }
+}

@@ -1,0 +1,205 @@
+.Container{
+    width: 100%;
+
+   
+
+     }
+     .VhContainer{
+        width: 100%;
+      
+       
+    
+         }
+     .Container2{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Montserrat', sans-serif;
+       background-color: whitesmoke;
+     
+         }
+
+     .h4{
+        text-align: center;
+        font-size:26px ;
+      
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .catDiv{
+        display:'flex';
+        flex-direction:'column';
+        justify-content:inherit;
+        transition: transform .4s ease;
+        border:0.095rem solid lightgrey;
+        border-radius:8px ;
+        margin: 8px;
+        font-family: 'Montserrat', sans-serif;
+        /* border-left: 1px solid grey; */
+        cursor: pointer;
+        height: auto;
+      
+}
+   
+.vhDiv{
+    display:'flex';
+    flex-direction:'column';
+    justify-content:inherit;
+    transition: transform .4s ease;
+    
+   
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    /* border-left: 1px solid grey; */
+    cursor: pointer;
+    height: auto;
+  
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    margin-top:-15px ;
+    
+    margin-left:10px ;
+}
+    .imgDiv{
+            display:'flex';
+            flex-direction:'column';
+            align-content:'space-between';
+            transition: transform .4s ease;
+            border:0.095rem solid lightgrey;
+            font-family: 'Montserrat', sans-serif;
+            /* border-left: 1px solid grey; */
+            
+            height: auto;
+            width:195px;
+            padding: 10px 10px 10px 10px;
+            
+            margin-left: 10px;
+          
+    }
+    .imgDiv img{
+        transition: transform .5s ease;
+        border: 1px solid black;
+    }
+    .imgDiv img:hover{
+        transform: scale(1.1); 
+        transition-delay: 0.3s ease;
+        box-shadow: 0 2px 2px rgb(11 25 28 / 10%);
+    }
+    .cmng{
+        background-image:url('https://react-coming-soon.maksv.me/default-image.jpeg');
+     
+      }
+
+      .largeView{
+       display: flex;
+       flex-direction: row;
+       justify-content:center;
+       flex-wrap: wrap;
+      }
+
+      .mobileView{
+       
+       display:none;
+
+      }
+      .text{
+        margin-top:40px;
+        margin-bottom:30px;
+        width:420px;
+      }
+
+      .btn{
+        margin-bottom:30px;
+        height:40px;
+        border-radius:50px;
+        width:300px;
+        margin-left:60px;
+        margin-right:auto;
+        margin-top:30px;
+        background-color:rgba(16, 103, 138, 0.933);
+        color:white;
+      }
+     
+      .lartabl{
+
+        border:'0.095rem solid lightgrey';
+        padding-top:20px;
+      }
+     .tabl{
+         display:none;
+     }
+
+      @media screen and (max-width: 700px) {
+      
+        .largeView{
+            display:none;
+        }
+  
+        .mobileView{
+         
+         display:flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width:100%;
+      
+        }
+        .imgDiv{
+            display:'flex';
+            flex-direction:'column';
+            align-content:'space-between';
+            transition: transform .4s ease;
+            border:0.095rem solid lightgrey;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 10px;
+            /* border-left: 1px solid grey; */
+            height: 230px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 10px 10px 10px;
+            
+          
+    }
+    .catDiv{
+      display:'flex';
+      flex-direction:'column';
+      align-content:'space-between';
+      transition: transform .4s ease;
+      border:0.095rem solid lightgrey;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 10px;
+      /* border-left: 1px solid grey; */
+      height: 230px;
+  
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px 10px 10px 10px;
+      border-radius:8px ;
+      cursor: pointer;
+      height: auto;
+      
+
+      
+    
+}
+    .text{
+        
+        width:95%;
+        margin-left:20px;
+      }
+      .btn{
+          width:80%;
+          margin-left:30px;
+          margin-top: 40px;
+          margin-bottom: 10px;
+      }
+      .tabl{
+          
+      }
+
+      .lartabl{
+        display:none;
+    }
+
+      }

@@ -1,0 +1,62 @@
+.container{
+
+    
+  background: linear-gradient(
+    rgba(109, 94, 94, 0.5),
+    rgba(132, 113, 113, 0.5)
+  ),
+  url("/1-sliders.png") ;
+background-size: cover;
+display: flex;
+height:auto;
+align-items: center;
+justify-content: center;
+
+}
+
+.wrapper{
+    width: 25%;
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    background-color: white;
+    opacity: 80%;
+    margin-left:auto;
+    margin-right:10%;
+    border-radius: 30px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 400;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    flex: 1;
+    min-width: 40%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid grey;
+    
+    border-radius: 5px;
+  
+}
+.error{
+    color: red;
+    margin-top: 1px;
+    font-size: small;
+      flex: 1;
+}
+.btn{
+    width: 40%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color:red;
+    /* background-image: linear-gradient(to right, red,rgba(67, 143, 173, 0.933)); */
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

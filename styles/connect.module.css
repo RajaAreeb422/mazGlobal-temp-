@@ -1,0 +1,131 @@
+.container{
+     padding:20px;
+     padding-left: 0%;
+     padding-top: 0%;
+     padding-bottom: 0%;
+     display:flex;
+     flex-direction: row;
+     border: 1px solid lightgrey;
+     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+     width:90%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 20px;
+}
+
+.text{
+    
+    width:60%;
+
+}
+.text1{
+    
+    width:60%;
+    
+    padding: 20px;
+    
+   
+   
+}
+.input{
+    padding:4px;
+    border-radius:4px;
+    border-style:groove;
+    height:40px;
+    margin:5px ;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+.para{
+    width:30%;
+    text-align:justify;
+    padding:10px;
+    margin-left:9%;
+    margin-top:1%;
+}
+
+.striveBlock{
+    display:flex;
+    flex-direction:row;
+    margin-left:10%;
+      margin-right:20%;
+      padding:20px;
+      width:90%;
+}
+.team{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.largeView{
+    margin-top:-2%;
+    margin-right:-3%;
+}
+.imgView{
+    width:57%;
+    height:30%;
+}
+
+.btn{
+    width: 40%;
+  border: none;
+  margin-top: 10px;
+  padding: 15px 20px;
+
+  background-image: linear-gradient(to right, red,rgba(67, 143, 173, 0.933));
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right:0;
+        
+        width:auto;
+        border:none;
+        box-shadow: none;
+    }  
+    .largeView{
+        display:none;
+        margin-right: 0;
+    }
+    .text{
+        margin:20px;
+        width:95%;
+        text-align: center;
+    }
+    .text1{
+        margin:20px;
+        width:100%;
+        text-align: center;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .striveBlock{
+        display:flex;
+        flex-direction:column;
+        
+    
+          
+    }
+    .para{
+        width:80%;
+        text-align:justify;
+        padding-top:10px;
+        
+        margin-top:1%;
+    }
+    .imgView{
+        width:90%;
+        height:30%;
+    }
+}

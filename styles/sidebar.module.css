@@ -1,0 +1,109 @@
+
+.MContainer {
+
+}
+
+
+
+
+.Input{
+    height:50px;
+    padding:6px;
+    margin-bottom:20px;
+    border-radius:8px;
+    background:whitesmoke;
+    border:1px ridge whitesmoke;
+}
+
+
+
+
+.Bar{
+    display: flex;
+    width: 247px;
+    flex-direction: row;
+    background-color: whitesmoke;
+    
+    border-bottom-color: whitesmoke;
+    text-align: center;
+}
+ 
+
+.FilterContainer{
+    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+
+
+ .Filter{
+ 
+  display: flex;
+  flex-direction: column;
+
+
+ }
+
+.FilterHome {
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+ 
+}
+
+.LeftBar{
+  
+  margin-top: 55px;
+  width: 250px;
+
+  border: 0.095rem solid lightgrey;
+
+
+}
+
+.SearchBar{
+  
+  margin-top: 55px;
+  width: 250px;
+  margin-bottom: 40px;
+  border: 0.095rem solid lightgrey;
+  
+  
+}
+
+
+.FilterText {
+  font-size: 14px;
+  cursor:pointer;
+  padding: 8px;
+  color:grey;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+}
+.FilterHomeText {
+  font-size: 14px;
+  padding: 6px;
+  /* padding:20px;
+  margin-top: 10px;
+  margin-left:20px */
+}
+
+.FilterTitle{
+  font-size: 16px;
+  font-weight: 700;
+  margin-top:6px;
+  padding: 9px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+}
+
+
+
+@media screen and (max-width: 700px) {
+      
+    .MContainer{
+        display:none;
+    }
+}
